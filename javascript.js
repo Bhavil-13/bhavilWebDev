@@ -1,12 +1,25 @@
 "use strict";
 
-let sendersEmail, password, recieversEmail, subject, message;
+function sendEmail(sendersEmail, password, recieversEmail, subject, message) {
+  Email.send({
+    Host: "smtp.gmail.com",
+    Username: sendersEmail,
+    Password: password,
+    To: recieversEmail,
+    From: sendersEmail,
+    Subject: subject,
+    Body: message,
+  }).then(function (message) {
+    alert("mail sent successfully");
+  });
+}
 
-document.querySelector("send").addEventListener("click", function () {
-  sendersEmail = document.querySelector("semail");
-  password = document.querySelector("password");
-  recieversEmail = document.querySelector("remail");
-  subject = document.querySelector("subject");
-  message = document.querySelector("message");
-  console.log(sendersEmail);
+document.querySelector(".send").addEventListener("click", function () {
+  let sendersEmail = document.querySelector(".semail").value;
+  let password = document.querySelector(".password").value;
+  let recieversEmail = document.querySelector(".remail").value;
+  let subject = document.querySelector(".subject").value;
+  let message = document.querySelector(".message").value;
+
+  sendEmail(sendersEmail, password, recieversEmail, subject, message);
 });

@@ -10,10 +10,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
     <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
+
     <link rel="stylesheet" href="style.css" />
     <title>Email</title>
   </head>
@@ -25,38 +22,30 @@
       </header>
     </div>
 
-    <div class="container">
+    <div class="">
       <form>
-        <div class="container">
-          <div class="container semail">
-            Your Email ID: <input type="text" />
-          </div>
+        <div class="">
+          <div class="semail">Your Email ID: <input type="text" /></div>
           <br />
-          <div class="container password">
-            Your Password: <input type="password" />
-          </div>
+          <div class="password">Your Password: <input type="password" /></div>
           <br />
-          <div class="container remail">
-            Recievers Email ID: <input type="text" />
-          </div>
+          <div class="remail">Recievers Email ID: <input type="text" /></div>
           <br />
-          <div class="container subject">Subject: <input type="text" /></div>
+          <div class="subject">Subject: <input type="text" /></div>
           <br />
           <textarea
-            class="container message"
+            class="message"
             name="Enter your message here"
             id=""
             cols="30"
             rows="10"
           ></textarea>
           <br />
-          <button type="submit" class="container submit">Send</button>
+          <button type="submit" class="send">Send</button>
         </div>
       </form>
     </div>
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <div class="display">Display</div>
     <script src="javascript.js"></script>
   </body>
 </html>
