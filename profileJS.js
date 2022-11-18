@@ -20,7 +20,8 @@ if (publish) {
   publish.addEventListener("click", function () {
     // 1. Put all the details in a variable, and then in an object of feedContent
     let myBlog = new feedContent(emailID, password, title, content, tags);
-    let myBlogString = JSON.stringify(myBlog);
+    // let myBlogString = JSON.stringify(myBlog);
+    module.exports = myBlog;
 
     // 2. Then, send all that to feedJS.js file
   });
