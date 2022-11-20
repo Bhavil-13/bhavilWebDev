@@ -1,0 +1,16 @@
+{
+  "data-1": {
+    "Email": "abc@email.com",
+    "Password": 12345678,
+    "Heading": "Title",
+    "Content": "This is a test blog abc",
+    "Tags": "Entertarinment, Educational, News"
+  },
+  "data-2": {
+    "Email": "abc@email.com",
+    "Password": 12345678,
+    "Heading": "Title",
+    "Content": "This is 2nd test blog",
+    "Tags": "Entertarinment, Educational, News"
+  }
+}

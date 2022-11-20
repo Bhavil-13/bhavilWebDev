@@ -11,7 +11,6 @@
     "url": "git+https://github.com/Bhavil-13/bhavilWebDev.git"
   },
   "author": "Bhavil",
-  "type": "module",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Bhavil-13/bhavilWebDev/issues"
