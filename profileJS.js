@@ -21,7 +21,8 @@ if (publish) {
     // 1. Put all the details in a variable, and then in an object of feedContent
     let myBlog = new feedContent(emailID, password, title, content, tags);
     // let myBlogString = JSON.stringify(myBlog);
-    module.exports = myBlog;
+    let blogString = JSON.stringify(myBlog);
+    module.exports = blogString;
 
     // 2. Then, send all that to feedJS.js file
   });
