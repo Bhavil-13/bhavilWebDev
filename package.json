@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Bhavil-13/bhavilWebDev/issues"
   },
-  "homepage": "https://github.com/Bhavil-13/bhavilWebDev#readme"
+  "homepage": "https://github.com/Bhavil-13/bhavilWebDev#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "requirejs": "^2.3.6"
+  }
 }

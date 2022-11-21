@@ -2,6 +2,7 @@
 
 let contentArr = [];
 let html = "";
+
 function showBlog() {
   contentArr.forEach(element => {
     html += `<div class="card mb-3 container my-4">
